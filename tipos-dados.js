@@ -149,5 +149,25 @@ let result7 = 15 & 8
 console.log(result7);
 
 
+// template string e concatenação
 
+const nome1 = "Rodrigo"
+const nome2 = "Anderson"
+const nome3 = "Medeiros"
+const nome4 = "Bezerra"
+
+const nomeComplleto = nome1 + nome2 + nome3 + nome4;
+const nomeCompleto2 = nome1 + "" + nome2 + "" + nome3 + "" + nome4;
+
+const nomeCompleto3 = Olá eu sou `${nome1} ${nome2} ${nome3} ${nome4}`;
+console.log(nomeCompleto3);
+
+//crie uma varável, coloque dentro de uma variável usando template string
+//e mostre o resultado no console
+
+let MyCar = "rover"
+
+let frase = `Eu tenho um ${MyCar}`;
+
+console.log(frase);
 
