@@ -78,3 +78,76 @@ falaAlto = "sim";
 console.log(dirigeCarro);
 console.log(cantaMusica);
 console.log(falaAlto);
+
+// operações matemáticas
+
+let numero1 = 20;
+let numero2 = 10;
+
+let soma = numero1 + numero2;
+
+console.log(soma);
+
+soma = 50
+
+numero2 = 5;
+
+console.log(soma);
+
+let resultSubtracao = soma - numero2 
+
+console.log(resultSubtracao);
+
+let result3 = 30 * 3;
+
+console.log(result3);
+
+
+let result4 = 50 / 10;
+
+console.log(result4);
+
+// mod - resto da divisao
+
+let result5 = 10 % 3
+
+console.log(result5);
+
+// verificando no console os tipos de dados - typeof
+
+console.log(typeof caraDaCamisaVinho);
+console.log(typeof altura);
+console.log(typeof undefined);
+
+
+// faça as quatro operações matemáticas com dois números de sua escolha e apresente os resultados no console. 
+// Depois verifique os tipos de dados e cada resultado utilizando o typeof:
+
+
+
+let numero5 = 40;
+let numero6 = 20;
+
+let somaa = numero5 + numero6;
+
+somaa = 60;
+
+console.log(soma);
+
+let resultSubtracaoo = soma - numero5;
+
+console.log(resultSubtracaoo);
+
+let result2 = 60 * 5;
+
+console.log(result2);
+
+let result6 = 60 / 2;
+console.log(result6);
+
+let result7 = 15 & 8
+console.log(result7);
+
+
+
+
