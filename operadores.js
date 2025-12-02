@@ -9,10 +9,10 @@ const comparacao1 = numero1 < numero2; //treu
 const comparacao2 = numero3 > numero4; //true
 const comparacao3 = 10 <=3; //false
 const comparacao4 = 2 >= 0; //true
-const comparacao5 = 10 = 10; //true
-const comparacao6 = 10 = "10";
-const comparacao7 = 20 = "20";
-const comparacao8 = 30 ! = 30; // false
+const comparacao5 = 10 == 10; //true
+const comparacao6 = 10 == "10";
+const comparacao7 = 20 == "20";
+const comparacao8 = 30 ! == 30; // false
 const comparacao9 = "30" != 30;
 
 console.log(comparacao1);
