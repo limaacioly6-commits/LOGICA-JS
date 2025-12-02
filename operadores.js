@@ -16,3 +16,13 @@ const comparacao8 = 30 ! == 30; // false
 const comparacao9 = "30" != 30;
 
 console.log(comparacao1);
+
+
+//operadores lógicos (tabela verdade)
+//e = && 
+// ou = || 
+// inverso = !
+
+const situacao1 = (10 === 10) || 20 > 50; // true
+const situacao2 = 30 !== 30 && 20 >= 20;// false
+const situacao3 = !situacao1 || !situacao2; //true
