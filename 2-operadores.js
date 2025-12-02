@@ -19,10 +19,11 @@ console.log(comparacao1);
 
 
 //operadores lógicos (tabela verdade)
-//e = && 
-// ou = || 
-// inverso = !
+//e = && (Todos tem que ser o mesmo, para ser verdadeiro)
+// ou = || (basta 1 para ser VERDADEIRO)
+// inverso = !(basta 1 para ser VERDADEIRO)
 
 const situacao1 = (10 === 10) || 20 > 50; // true
 const situacao2 = 30 !== 30 && 20 >= 20;// false
 const situacao3 = !situacao1 || !situacao2; //true
+const situacao4 = !(100 >=10) && !(10<=100) && true; //false
