@@ -1,0 +1,50 @@
+//introdução a objetos(chave e valor)
+
+
+const pessoa = {
+nome: "Acioly",
+idade: 40,
+temCarro: true,
+casado:false,
+coresFavoritas: ["preto", "azul", "verde"],
+Carro: {
+    modelo: "onix",
+    ano: 2022,
+    itens: ["direcao eletrica", "cvt", "banco de couro"]
+},
+};
+
+
+console.log(aluno.matricula)
+
+console.log(pessoa.coresFavoritas[2]);
+console.log(pessoa.Carro.modelo);
+
+//desafio: Crie uma variável chamada frase, e coloque uma string "Eu tenho um carro com câmbio[cvt]" - 
+//use template string
+
+const frase = 'Eu tenho um carro com câmbio ${pessoa.carro.itens[1]}';
+console.log(frase);
+
+//substituindo valores em um objeto
+
+pessoa.Carro.ano = 2025;
+
+console.log(pessoa);
+
+//adicionando "ar" no itens do carro
+pessoa.Carro.itens[3] = "ar";
+
+console.log(pessoa);
+
+//deletando uma propriedade
+
+delete pessoa.casado;
+
+console.log(pessoa);
+
+pessoa.profissao = "Programador";
+
+console.log(pessoa);
+
+
