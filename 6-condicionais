@@ -1,0 +1,92 @@
+// function operacoesMatematicas(num1, num2, operacao) {
+//   if (operacao === "soma") {
+//     return num1 + num2;
+//   } else if (operacao === "subtrai") {
+//     return num1 - num2;
+//   } else if (operacao === "multiplicar") {
+//     return num1 * num2;
+//   } else {
+//     return num1 / num2;
+//   }
+// }
+
+// const result1 = operacoesMatematicas(10, 2, "soma");
+// const result2 = operacoesMatematicas(20, 10, "subtrai");
+// const result3 = operacoesMatematicas(30, 3, "multiplicar");
+// const result4 = operacoesMatematicas(30, 3, "limão");
+
+// console.log(result1);
+// console.log(result2);
+// console.log(result3);
+// console.log(result4);
+
+// //Escreve 1 função que recebe 1 idade como parâmetro e dentro dela, verificar se a pessoa é maior de idade ou não!!
+
+// function verificaIdade(idade) {
+//   if (idade >= 18) {
+//     return "È maior de idade";
+//   } else {
+//     return "È menor de idade";
+//   }
+// }
+
+// const pessoa1 = verificaIdade(24);
+// const pessoa2 = verificaIdade(10);
+// const pessoa3 = verificaIdade(18);
+
+// console.log(pessoa1, pessoa2, pessoa3);
+
+// function verificaRoupa(BlackWhite) {
+//   if (CorDiferente === "preto") {
+//     return "Não permite entrar na festa";
+//   } else {
+//     return "Pode entrar";
+//   }
+// }
+
+// const convidado1 = verificaRoupa(azul);
+// const convidado2 = verificaRoupa(roxo);
+// const convidado3 = verificaRoupa(preto);
+
+// console.log(convidado1, convidado2, convidado3);
+
+//Crie 1 função VERIFICADIA recebe 1 parâmetro chamado DIASEMANA:
+
+function VerificaDia(diadaSemana) {
+  switch (diadaSemana) {
+    case 1:
+      return "Domingo";
+
+    case 2:
+      return "Segunda";
+
+    case 3:
+      return "Terça";
+
+    case 4:
+      return "Quarta";
+
+    case 5:
+      return "Quinta";
+
+    case 6:
+      return "Sexta";
+
+    case 7:
+      return "Sábado";
+
+    default:
+      return "Digite o número de 1 a 7";
+  }
+}
+
+const dia1 = VerificaDia(1);
+
+console.log(VerificaDia(1));
+console.log(VerificaDia(2));
+console.log(VerificaDia(3));
+console.log(VerificaDia(4));
+console.log(VerificaDia(5));
+console.log(VerificaDia(6));
+console.log(VerificaDia(7));
+console.log(VerificaDia(8)); // demonstra o caso default
