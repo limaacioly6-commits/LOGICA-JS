@@ -91,33 +91,53 @@
 // console.log(VerificaDia(7));
 // console.log(VerificaDia(8)); // demonstra o caso default
 
-const cor = "vermelho";
+// const cor = "vermelho";
 
-switch (cor) {
-  case "azul":
-    console.log("Cor é azul");
-    break;
-  case "roxo":
-    console.log("Cor é roxo");
-    break;
+// switch (cor) {
+//   case "azul":
+//     console.log("Cor é azul");
+//     break;
+//   case "roxo":
+//     console.log("Cor é roxo");
+//     break;
 
-  case "verde":
-    console.log("Cor é verde");
-    break;
+//   case "verde":
+//     console.log("Cor é verde");
+//     break;
 
-  case "vermelho":
-    console.log("Cor é vermelho");
-    break;
+//   case "vermelho":
+//     console.log("Cor é vermelho");
+//     break;
 
-  case "marrom":
-    console.log("Cor é marrom");
-    break;
+//   case "marrom":
+//     console.log("Cor é marrom");
+//     break;
 
-  case "rosa":
-    console.log("Cor é rosa");
-    break;
+//   case "rosa":
+//     console.log("Cor é rosa");
+//     break;
 
-  default:
-    console.log("caiu no default");
-    break;
+//   default:
+//     console.log("caiu no default");
+//     break;
+// }
+
+// let idade = 20;
+// let status = idade >= 18 ? "Maior de idade" : "Menor de idade";
+// console.log(status1); //Maior de idade
+
+function verificaNota(Nota) {
+  if (Nota >= 7) {
+    return "Aprovado";
+  } else if (nota>=5){
+    return "Recuperação";
+  } else {
+    return "Reprovado";
+  }
 }
+
+const Aluno1 = verificaNota(5);
+const Aluno2 = verificaNota(6.9);
+const Aluno3 = verificaNota(7);
+
+console.log(Aprovado, Reprovado, Recuperação);
