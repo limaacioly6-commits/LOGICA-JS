@@ -52,41 +52,72 @@
 
 //Crie 1 função VERIFICADIA recebe 1 parâmetro chamado DIASEMANA:
 
-function VerificaDia(diadaSemana) {
-  switch (diadaSemana) {
-    case 1:
-      return "Domingo";
+// function VerificaDia(diadaSemana) {
+//   switch (diadaSemana) {
+//     case 1:
+//       return "Domingo";
 
-    case 2:
-      return "Segunda";
+//     case 2:
+//       return "Segunda";
 
-    case 3:
-      return "Terça";
+//     case 3:
+//       return "Terça";
 
-    case 4:
-      return "Quarta";
+//     case 4:
+//       return "Quarta";
 
-    case 5:
-      return "Quinta";
+//     case 5:
+//       return "Quinta";
 
-    case 6:
-      return "Sexta";
+//     case 6:
+//       return "Sexta";
 
-    case 7:
-      return "Sábado";
+//     case 7:
+//       return "Sábado";
 
-    default:
-      return "Digite o número de 1 a 7";
-  }
+//     default:
+//       return "Digite o número de 1 a 7";
+//   }
+// }
+
+// const dia1 = VerificaDia(1);
+
+// console.log(VerificaDia(1));
+// console.log(VerificaDia(2));
+// console.log(VerificaDia(3));
+// console.log(VerificaDia(4));
+// console.log(VerificaDia(5));
+// console.log(VerificaDia(6));
+// console.log(VerificaDia(7));
+// console.log(VerificaDia(8)); // demonstra o caso default
+
+const cor = "vermelho";
+
+switch (cor) {
+  case "azul":
+    console.log("Cor é azul");
+    break;
+  case "roxo":
+    console.log("Cor é roxo");
+    break;
+
+  case "verde":
+    console.log("Cor é verde");
+    break;
+
+  case "vermelho":
+    console.log("Cor é vermelho");
+    break;
+
+  case "marrom":
+    console.log("Cor é marrom");
+    break;
+
+  case "rosa":
+    console.log("Cor é rosa");
+    break;
+
+  default:
+    console.log("caiu no default");
+    break;
 }
-
-const dia1 = VerificaDia(1);
-
-console.log(VerificaDia(1));
-console.log(VerificaDia(2));
-console.log(VerificaDia(3));
-console.log(VerificaDia(4));
-console.log(VerificaDia(5));
-console.log(VerificaDia(6));
-console.log(VerificaDia(7));
-console.log(VerificaDia(8)); // demonstra o caso default
