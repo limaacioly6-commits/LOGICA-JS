@@ -78,7 +78,8 @@ for (let i = 0; i < estoque.length; i++) {
   }
   // Adiciona numeração 42 ao Asics
   if (estoque[i].marca === "Asics") {
-    estoque[i].tamanho.push(42);
+    estoque[i].tamanho[estoque.length] = 42;
+    // estoque[i].tamanho.push(42);
   }
 }
 
