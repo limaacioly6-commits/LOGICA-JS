@@ -78,6 +78,12 @@ console.log(doisCarros);
 //3 - Pega qualquer item no meio desse array e deleta
 //4 - Substitui um item no meio e adiciona 2 novos tenis
 
+let tenis_ = [
+  ["Nike", "Adidas"],
+  ["Osklen", "Mizuno"],
+];
+console.log(tenis_);
+
 let tenis = [
   ["Nike", "Adidas"],
   ["Osklen", "Mizuno"],
@@ -94,3 +100,16 @@ if (Array.isArray(tenis[1])) {
   tenis[1].splice(0, 1, "Fila", "New Balance", "Olympikus");
 }
 console.log(tenis);
+
+//Métodos Avançados
+
+//map() - Cria um novo array aplicando uma função em cada elemento.
+
+const meusNumeros = [2, 3, 4, 5, 6, 7];
+
+const numerosDobrados = meusNumeros.map((item) => {
+  console.log(item);
+  return item * 2;
+});
+
+console.log(numerosDobrados);
