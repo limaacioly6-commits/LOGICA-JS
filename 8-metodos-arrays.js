@@ -128,3 +128,31 @@ const numerosTriplicados = meusNumeros.map((item) => {
   }
 });
 console.log(numerosTriplicados);
+
+//Filter() - Retorna um novo array apenas com os elementos que atendem a uma condição.
+
+const outrosNumeros = [-10, -4, -2, 0, 1, 2, 4, 6];
+const maioresQueDois = outrosNumeros.filter((item) => {
+  return item > 2;
+});
+
+console.log(maioresQueDois);
+
+//retorne apenas os números pares
+
+// const NumerosPares = outrosNumeros.filter((item) => {
+//   item % 2 === 0
+// .map((item)=>{
+//     return item * 2;
+// });
+// console.log(NumerosPares);
+
+//find() - Retorna o primeiro elemento que satisfaz a condição
+
+let numer1 = [10, 20, 30, 40, 50];
+
+const encontrado = numer1.find((item) => {
+  return item > 30;
+});
+
+console.log(encontrado);
