@@ -113,3 +113,18 @@ const numerosDobrados = meusNumeros.map((item) => {
 });
 
 console.log(numerosDobrados);
+
+//Exercicio:
+//1 - Triplique apenas os números pares usando map
+//2 - Impar numero %2 ! == 0
+//3 - Par número %2 === 0
+//4 - Verifique é o mesmo que IF
+
+const numerosTriplicados = meusNumeros.map((item) => {
+  if (item % 2 === 0) {
+    return item * 3;
+  } else {
+    return item;
+  }
+});
+console.log(numerosTriplicados);
